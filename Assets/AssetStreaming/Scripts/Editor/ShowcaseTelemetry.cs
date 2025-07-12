@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEditor;
 
 /// <summary>
 /// This class helps us track the usage of this showcase
 /// </summary>
 [InitializeOnLoad]
+[MetaCodeSample("AssetStreaming")]
 public static class ShowcaseTelemetry
 {
     // This is the name of this showcase

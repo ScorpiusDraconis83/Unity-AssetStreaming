@@ -2,12 +2,14 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-AssetStreaming/tree/main/Assets/AssetStreaming/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEditor;
 
 // Tool for creating a path by placing waypoints.
 
 [CustomEditor(typeof(Benchmark))]
+[MetaCodeSample("AssetStreaming")]
 public class BenchmarkEditor : Editor
 {
     public override void OnInspectorGUI()

@@ -9,9 +9,11 @@ using UnityEngine.SceneManagement;
 using System.IO;
 using System;
 using System.Linq;
+using Meta.XR.Samples;
 using Unity.Jobs;
 using Unity.Collections;
 
+[MetaCodeSample("AssetStreaming")]
 public struct Polygon
 {
     public Vector3 v0;
@@ -25,6 +27,7 @@ public struct Polygon
     public Vector3 n2;
 }
 
+[MetaCodeSample("AssetStreaming")]
 public struct PolygonLightmapUV
 {
     public Vector2 v0;
@@ -34,6 +37,7 @@ public struct PolygonLightmapUV
 
 // Copies the lightmap UVs from the lightmap mesh to the LOD meshes.
 // Looks for identical vertex then copies the lightmap UVs.
+[MetaCodeSample("AssetStreaming")]
 public struct CopyLightmapUVsJob : IJob
 {
     [ReadOnly]
@@ -137,6 +141,7 @@ public struct CopyLightmapUVsJob : IJob
 }
 
 // Edge for edge collapse algorithm
+[MetaCodeSample("AssetStreaming")]
 struct Edge : IComparable
 {
     public int i0; // vertex index
@@ -170,6 +175,7 @@ struct Edge : IComparable
     }
 }
 
+[MetaCodeSample("AssetStreaming")]
 public struct DecimateMeshJob : IJob
 {
     public NativeArray<Vector3> vertices;
@@ -452,10 +458,12 @@ public struct DecimateMeshJob : IJob
 
 // CODE REMOVED
 // This class replaces all classes which have been removed.
+[MetaCodeSample("AssetStreaming")]
 public class ObjectRemoved
 {}
 
 [CustomEditor(typeof(LODGenerator))]
+[MetaCodeSample("AssetStreaming")]
 public class LODGeneratorEditor : Editor
 {
     private LODGenerator lodGenerator = null;

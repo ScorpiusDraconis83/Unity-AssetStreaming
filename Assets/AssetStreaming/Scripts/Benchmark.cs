@@ -3,10 +3,12 @@
 // https://github.com/oculus-samples/Unity-AssetStreaming/tree/main/Assets/AssetStreaming/LICENSE
 
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using UnityEngine;
 
 // A set of waypoints to create a path & logic to get a point on that path.
 
+[MetaCodeSample("AssetStreaming")]
 public class Benchmark : MonoBehaviour
 {
     public List<Transform> waypoints;

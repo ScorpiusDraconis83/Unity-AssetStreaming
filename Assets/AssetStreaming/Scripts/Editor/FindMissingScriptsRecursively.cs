@@ -4,8 +4,11 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEditor;
+
+[MetaCodeSample("AssetStreaming")]
 public static class FindMissingScriptsRecursively
 {
     [MenuItem("Auto/Remove Missing Scripts Recursively Visit Prefabs")]

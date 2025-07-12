@@ -1,14 +1,16 @@
 ﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-AssetStreaming/tree/main/Assets/AssetStreaming/LICENSE
-    
 
+
+using Meta.XR.Samples;
 using UnityEditor;
 using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
+[MetaCodeSample("AssetStreaming")]
 public class BuildUtils
 {
     [MenuItem("AssetStreaming/Build Addressables and Apk")]

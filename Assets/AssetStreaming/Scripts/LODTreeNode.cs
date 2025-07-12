@@ -3,6 +3,7 @@
 // https://github.com/oculus-samples/Unity-AssetStreaming/tree/main/Assets/AssetStreaming/LICENSE
 
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -13,6 +14,7 @@ using UnityEngine.SceneManagement;
 // Nodes contain all logic for switching and streaming LOD meshes.
 
 [System.Serializable]
+[MetaCodeSample("AssetStreaming")]
 public class LODTreeNode
 {
     public enum NodeState

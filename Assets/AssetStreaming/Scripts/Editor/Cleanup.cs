@@ -6,7 +6,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System;
+using Meta.XR.Samples;
 
+[MetaCodeSample("AssetStreaming")]
 public class Cleanup : EditorWindow
 {
     [MenuItem("Window/Cleanup")]

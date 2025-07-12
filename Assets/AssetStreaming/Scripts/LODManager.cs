@@ -4,6 +4,7 @@
 
 using System;
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -13,6 +14,7 @@ using UnityEngine.SceneManagement;
 // Serializes the lightmap information of meshes managed by the LOD manager.
 // Used to combine the lightmaps sublevels into a texture array in SublevelCombinerEditor.cs
 [System.Serializable]
+[MetaCodeSample("AssetStreaming")]
 public class LightmapParameters
 {
     public Texture2D lightmap;
@@ -20,6 +22,7 @@ public class LightmapParameters
 }
 
 // Manages the LOD system of a sublevel
+[MetaCodeSample("AssetStreaming")]
 public class LODManager : MonoBehaviour
 {
     public Material debugMaterial;
@@ -38,6 +41,7 @@ public class LODManager : MonoBehaviour
     public Material[] lodDebugMaterials;
 
     // Stores basic information about asynchrounes load or unload operations so the scheduling of these operations can be spread over multiple frames
+    [MetaCodeSample("AssetStreaming")]
     public class AsyncOperation
     {
         public AssetReference sceneRef;

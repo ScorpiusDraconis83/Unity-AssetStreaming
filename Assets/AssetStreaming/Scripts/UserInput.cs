@@ -2,12 +2,14 @@
 // Use of the material below is subject to the terms of the MIT License
 // https://github.com/oculus-samples/Unity-AssetStreaming/tree/main/Assets/AssetStreaming/LICENSE
 
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
 
 // Switches locomotion type and handles inputs received from the debug menu.
 
+[MetaCodeSample("AssetStreaming")]
 public class UserInput : MonoBehaviour
 {
     public enum LocomotionType

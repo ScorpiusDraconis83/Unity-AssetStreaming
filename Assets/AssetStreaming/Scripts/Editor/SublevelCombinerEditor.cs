@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using Meta.XR.Samples;
 using UnityEditor.AddressableAssets;
 using UnityEngine.SceneManagement;
 using UnityEditor.SceneManagement;
@@ -18,6 +19,7 @@ using UnityEditor.SceneManagement;
 // 4. Creates scenes for each LOD level of each mesh. Needed for streaming.
 
 [CustomEditor(typeof(SublevelCombiner))]
+[MetaCodeSample("AssetStreaming")]
 public class SublevelCombinerEditor : Editor
 {
     private SublevelCombiner sublevelCombiner;
