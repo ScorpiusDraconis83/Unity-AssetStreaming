@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: townhub
   m_EditorClassIdentifier: 
   m_GroupName: townhub
-  m_Data:
-    m_SerializedData: []
   m_GUID: e5e99509341d7804cb97e6180c0b8578
   m_SerializeEntries:
   - m_GUID: 0123d5672fe9df5408e908de497bb72f

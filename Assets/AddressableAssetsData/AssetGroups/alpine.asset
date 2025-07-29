@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: alpine
   m_EditorClassIdentifier: 
   m_GroupName: alpine
-  m_Data:
-    m_SerializedData: []
   m_GUID: 0298a656e0a38054cbdebb63a69627c1
   m_SerializeEntries:
   - m_GUID: 0158bcfc3c60db34bbb2a8c99ce40cd8

@@ -98,3 +98,4 @@ Material:
     - _TintColor: {r: 0.0035142766, g: 0.34052104, b: 0.47794116, a: 0.753}
     - _glowColor: {r: 0.60403156, g: 0, b: 1, a: 0.38431373}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

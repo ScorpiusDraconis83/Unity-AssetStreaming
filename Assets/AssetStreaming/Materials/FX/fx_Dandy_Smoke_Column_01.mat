@@ -87,6 +87,7 @@ Material:
     - _Properties: {r: 0.005, g: 0.01, b: 1, a: 0}
     - _TintColor: {r: 0.44117647, g: 0.44117647, b: 0.44117647, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6

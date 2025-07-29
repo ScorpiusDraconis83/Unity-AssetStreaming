@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: canyon
   m_EditorClassIdentifier: 
   m_GroupName: canyon
-  m_Data:
-    m_SerializedData: []
   m_GUID: d40a868a4af48d1498554e20b71dff9c
   m_SerializeEntries:
   - m_GUID: 00589e101bec2ac448b6bc3cbdce3a01

@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: shared
   m_EditorClassIdentifier: 
   m_GroupName: shared
-  m_Data:
-    m_SerializedData: []
   m_GUID: 886ffb9a896452942bab669f59b53c68
   m_SerializeEntries:
   - m_GUID: 33a785f2cbe9ae943a30c83d987d915c

@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Built In Data
   m_EditorClassIdentifier: 
   m_GroupName: Built In Data
-  m_Data:
-    m_SerializedData: []
   m_GUID: 8892195e423426a40aa65620212fe7e5
   m_SerializeEntries:
   - m_GUID: EditorSceneList

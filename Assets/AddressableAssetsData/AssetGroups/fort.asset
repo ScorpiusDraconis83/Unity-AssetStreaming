@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: fort
   m_EditorClassIdentifier: 
   m_GroupName: fort
-  m_Data:
-    m_SerializedData: []
   m_GUID: 68efb9f0b6888934ebd539093ca5a22b
   m_SerializeEntries:
   - m_GUID: 00044e98aa745484e8614533f7976f65

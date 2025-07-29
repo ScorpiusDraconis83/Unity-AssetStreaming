@@ -189,3 +189,4 @@ Material:
     - _WaterSpeed: {r: 22, g: 0, b: 0, a: 0}
     - _node_1150: {r: -0.39, g: 0.51, b: -4.5, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

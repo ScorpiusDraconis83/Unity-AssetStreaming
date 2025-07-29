@@ -164,3 +164,4 @@ Material:
     - _FresnelColor: {r: 0.3176471, g: 0.7372549, b: 0.7529413, a: 1}
     - _node_1150: {r: -0.39, g: 0.51, b: -4.5, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

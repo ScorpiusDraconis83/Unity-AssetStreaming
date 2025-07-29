@@ -93,3 +93,4 @@ Material:
     - _DissolveColor: {r: 0.91307473, g: 0.20392153, b: 0.9254902, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

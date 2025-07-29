@@ -97,3 +97,4 @@ Material:
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _TintColor: {r: 0.034482718, g: 1, b: 0, a: 0.297}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

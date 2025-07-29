@@ -101,3 +101,4 @@ Material:
     - _GradientCOlor: {r: 0.39294982, g: 0.48876032, b: 0.6764706, a: 1}
     - _TintColor: {r: 0.41509432, g: 0.3542814, b: 0.30740476, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
